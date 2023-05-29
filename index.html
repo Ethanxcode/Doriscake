@@ -1,0 +1,887 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<title>Doriscake</title>
+	<!-- google font -->
+	<link rel="preconnect" href="https://fonts.gstatic.com" />
+	<link
+		href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,900&display=swap"
+		rel="stylesheet" />
+	<!-- boxicons -->
+	<link href="https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css" rel="stylesheet" />
+	<!-- app css -->
+	<link rel="stylesheet" href="./css/grid.css" />
+	<link rel="stylesheet" href="./css/app.css" />
+</head>
+
+<body>
+	<!-- header -->
+	<header>
+		<!-- mobile menu -->
+
+		<div class="mobile-menu bg-second">
+
+			<a href="./index.html" class="mb-logo">Doriscake</a>
+			<span class="mb-menu-toggle" id="mb-menu-toggle">
+
+				<i class="bx bx-menu"></i>
+			</span>
+		</div>
+		<!-- end mobile menu -->
+		<!-- main header -->
+		<div class="header-wrapper" id="header-wrapper">
+			<span class="mb-menu-toggle mb-menu-close" id="mb-menu-close">
+				<i class="bx bx-x"></i>
+			</span>
+			<!-- top header -->
+			<div class="bg-second">
+				<div class="top-header container">
+					<ul class="devided">
+						<li>
+							<a href="#">+84908173919</a>
+						</li>
+						<li>
+							<a href="#">Doriscake@mail.com</a>
+						</li>
+					</ul>
+					<ul class="devided">
+						<li class="dropdown">
+							<a href="">VND</a>
+							<i class="bx bxs-chevron-down"></i>
+							<ul class="dropdown-content">
+								<li><a href="#">USD</a></li>
+								<li><a href="#">JPY</a></li>
+								<li><a href="#">EUR</a></li>
+							</ul>
+						</li>
+						<li class="dropdown">
+							<a href="">VIETNAMESE</a>
+							<i class="bx bxs-chevron-down"></i>
+							<ul class="dropdown-content">
+								<li><a href="#">ENGLISH</a></li>
+								<li><a href="#">JAPANESE</a></li>
+								<li><a href="#">FRENCH</a></li>
+								<li><a href="#">SPANISH</a></li>
+							</ul>
+						</li>
+						<li><a href="#">Đăng Nhập</a></li>
+						<li><a href="#">Đăng Ký</a></li>
+					</ul>
+				</div>
+			</div>
+			<!-- end top header -->
+			<!-- mid header -->
+			<div class="bg-main">
+				<div class="mid-header container">
+					<div style="display: flex
+					; align-items: center;">
+						<a href="./index.html" style=" margin-right: 16px; cursor: pointer;""><img src="
+							./images/logo.jpg" style="height: 44px; width: 44px;"></a>
+
+						<a href="./index.html" class="logo">Doriscake</a>
+					</div>
+					<div class="search">
+						<input type="text" placeholder="Tìm kiếm..." />
+						<i class="bx bx-search-alt"></i>
+					</div>
+					<ul class="user-menu">
+						<li>
+							<a href="#"><i class="bx bx-bell"></i></a>
+						</li>
+						<li>
+							<a href="#"><i class="bx bx-user-circle"></i></a>
+						</li>
+						<li>
+							<a href="#"><i class="bx bx-cart"></i></a>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<!-- end mid header -->
+			<!-- bottom header -->
+			<div class="bg-second">
+				<div class="bottom-header container">
+					<ul class="main-menu">
+						<li><a href="/index.html">Trang Chủ</a></li>
+						<!-- mega menu -->
+						<li class="mega-dropdown">
+							<a href="./products.html">Sản Phẩm<i class="bx bxs-chevron-down"></i></a>
+							<div class="mega-content">
+								<div class="row">
+									<div class="col-3 col-md-12">
+											<div class="box">
+												<h3>Bánh sinh nhật</h3>
+												<ul>
+													<li><a href="./products.html">Bánh kem cho bé trai </a></li>
+													<li><a href="./products.html">Bánh kem cho bé gái </a></li>
+													<li><a href="./products.html">Bánh Mousse </a></li>
+													<li><a href="./products.html">Bánh Kem Dâu </a></li>
+													<li><a href="./products.html">Bánh Mousse </a></li>
+													<li><a href="./products.html">Bộ Sưu Tập Bánh Phụ Kiện. </a></li>
+												</ul>
+											</div>
+										</div>
+										<div class="col-3 col-md-12">
+											<div class="box">
+												<h3>Bánh mì, bánh ngọt</h3>
+												<ul>
+													<li><a href="./products.html">Bánh mì</a></li>
+													<li><a href="./products.html">Bánh crep</a></li>
+												</ul>
+											</div>
+										</div>
+								</div>
+								<div class="row img-row">
+									<div class="col-3">
+										<div class="box">
+											<img src="https://product.hstatic.net/1000313040/product/post_fb_20_2adaab8f43024beea7d37a960c1cd4ab_large.png"
+												alt="" />
+										</div>
+									</div>
+									<div class="col-3">
+										<div class="box">
+											<img src="https://product.hstatic.net/1000313040/product/frame_fb_5_126e0d02135d4662b29a1f40789b8aba_large.png"
+												alt="" />
+										</div>
+									</div>
+									<div class="col-3">
+										<div class="box">
+											<img src="https://product.hstatic.net/1000313040/product/frame_fb_11_b2f9c0a05cd2445ba2fac6857bdb7fe8_large.png"
+												alt="" />
+										</div>
+									</div>
+									<div class="col-3">
+										<div class="box">
+											<img src="https://product.hstatic.net/1000313040/product/frame_fb_6_78c1fc31dc32417192fdf7af78be7dfe_large.png"
+												alt="" />
+										</div>
+									</div>
+								</div>
+							</div>
+						</li>
+						<!-- end mega menu -->
+						<li><a href="./intro.html">Giới Thiệu</a></li>
+						<li><a href="contact.html">Liên Hệ</a></li>
+					</ul>
+				</div>
+			</div>
+			<!-- end bottom header -->
+		</div>
+		<!-- end main header -->
+	</header>
+	<!-- end header -->
+
+	<!-- hero section -->
+	<div class="hero">
+		<div class="slider">
+			<div class="container">
+				<!-- slide item -->
+				<div class="slide active">
+					<div class="info">
+						<div class="info-content">
+							<h3 class="top-down">BÁNH CREPE</h3>
+							<h2 class="top-down trans-delay-0-2">BÁNH CREPE NÚI PHÚ SĨ</h2>
+							<p class="top-down trans-delay-0-4">
+								Lớp vỏ mỏng mềm, thêm Sợi Dừa thơm lừng được rắc lên trên mặt bánh. Bên trong thì ngập
+								tràn Sầu Riêng béo ngậy đầy hấp
+							</p>
+							<div class="top-down trans-delay-0-6"></div>
+						</div>
+					</div>
+					<div class="img top-down">
+						<img src="./images/banhcrep1.jpg" alt="" />
+					</div>
+				</div>
+				<!-- end slide item -->
+				<!-- slide item -->
+				<div class="slide">
+					<div class="info">
+						<div class="info-content">
+							<h3 class="top-down">BIRTHDAY CAKE 1 LEVEL</h3>
+							<h2 class="top-down trans-delay-0-2">
+								BIRTHDAY CAKE
+							</h2>
+							<p class="top-down trans-delay-0-4">
+								Lorem ipsum dolor sit amet consectetur adipisicing elit. A
+								optio, voluptatum aperiam nobis quis maxime corporis porro
+								alias soluta sunt quae consectetur aliquid blanditiis
+								perspiciatis labore cumque, ullam, quam eligendi!
+							</p>
+							<div class="top-down trans-delay-0-6"></div>
+						</div>
+					</div>
+					<div class="img right-left">
+						<img src="./images/banhkem2.jpg" alt="" />
+					</div>
+				</div>
+				<!-- end slide item -->
+				<!-- slide item -->
+				<div class="slide">
+					<div class="info">
+						<div class="info-content">
+							<h3 class="top-down">Bánh Crepe</h3>
+							<h2 class="top-down trans-delay-0-2">Bánh Crepe Sầu Riêng </h2>
+							<p class="top-down trans-delay-0-4">
+								Vỏ crepe Pháp siêu mềm siêu mỏng kết hợp sầu riêng chín cây ngập tràn nhân bánh cùng kem
+								tươi mát lạnh ít ngọt, thích hợp cho người ăn kiêng, đem đến cho khách hàng dòng sản
+								phẩm cao cấp có hương vị khác biệt trong lần đầu thưởng thức là món ăn vặt luôn được yêu
+								thích nhà….(tên shop )được chế biến mỗi ngày.
+							</p>
+							<div class="top-down trans-delay-0-6"></div>
+						</div>
+					</div>
+					<div class="img left-right">
+						<img src="./images/banhcrep2.jpg" alt="" />
+					</div>
+				</div>
+				<div class="slide">
+					
+					<div class="img=row top-down">
+						<img style="border-radius: 4px; height: 800px; image-rendering: optimizeQuality; object-fit: cover;" src="./images/logo2.png"
+							alt="" />
+					</div>
+				</div>
+				<div class="slide">
+
+					<div class="img-row left-right">
+						<img style="border-radius: 4px; height: 800px; image-rendering: optimizeQuality; object-fit: contain;"
+							src="./images/angi.jpg" alt="" />
+					</div>
+				</div>
+				<!-- end slide item -->
+			</div>
+			<!-- slider controller -->
+			<button class="slide-controll slide-next">
+				<i class="bx bxs-chevron-right"></i>
+			</button>
+			<button class="slide-controll slide-prev">
+				<i class="bx bxs-chevron-left"></i>
+			</button>
+			<!-- end slider controller -->
+		</div>
+	</div>
+	<!-- end hero section -->
+
+	<!-- promotion section -->
+	<div class="promotion">
+		<div class="row">
+			<div class="col-6">
+				<div class="row">
+					<div class="col-12">
+						<img src="./images/logo.jpg" alt="" style="height: 920px; " />
+					</div>
+				</div>
+			</div>
+			<div class="col-6">
+				<div class="row">
+					<div class="col-12" style="margin-bottom: -5px">
+						<img src="./images/306999375_5492363284210302_8827657743581038336_n_5492363300876967.jpg"
+							alt="" />
+					</div>
+
+					<div class="col-6" style="margin-bottom: -5px">
+						<img src="./images/banhcrep3.jpeg" alt="" />
+					</div>
+					<div class="col-6">
+						<img src="./images/Banh-sinh-nhat-vuong-mien-sang-trong-1.jpg" alt="" />
+					</div>
+					<div class="col-6" style="margin-bottom: -50px">
+						<img src="./images/banhcrep2.jpg">
+					</div>
+					<div class="col-6">
+						<img src="./images/banhkem4.jpg" alt="" />
+					</div>
+
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- end promotion section -->
+
+	<!-- product list -->
+	<div class="section">
+		<div class="container">
+			<div class="section-header">
+				<h2>BÁNH SINH NHẬT</h2>
+			</div>
+			<div class="row" id="latest-products">
+				<div class="col-3 col-md-6 col-sm-12">
+					<div class="product-card">
+						<div class="product-card-img">
+							<img src="./images/banhkem5.jpg" alt="">
+							<img src="./images/banhkem5.jpg" alt="">
+						</div>
+						<div class="product-card-info">
+							<div class="product-btn">
+								<a href='./product-detail.html' class="btn-flat btn-hover btn-shop-now">shop now</a>
+
+							</div>
+							<div class="product-card-name">
+								Bánh kem sinh nhật
+							</div>
+							<div class="product-card-price">
+								<span>10cm - 70.000đ</span>
+								<br>
+								<span class="curr-price">16cm - 110.000đ</span>
+							</div>
+						</div>
+					</div>
+					<div class="product-card" style="margin-top: 72px;">
+						<div class="product-card-img">
+							<img src="./images/banhkem1.jpg" alt="">
+							<img src="./images/banhkem1.jpg" alt="">
+						</div>
+						<div class="product-card-info">
+							<div class="product-btn">
+								<a href='./product-detail.html' class="btn-flat btn-hover btn-shop-now">shop now</a>
+
+							</div>
+							<div class="product-card-name">
+								Bánh kem sinh nhật dâu
+							</div>
+							<div class="product-card-price">
+
+								<span><del>20cm - 250.000đ</del></span>
+								<br>
+								<span class="curr-price">20cm - 200.000đ</span>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-3 col-md-6 col-sm-12">
+					<div class="product-card">
+						<div class="product-card-img">
+							<img src="./images/Banh-sinh-nhat-vuong-mien-sang-trong-1.jpg" alt="">
+							<img src="./images/Banh-sinh-nhat-vuong-mien-sang-trong-1.jpg" alt="">
+						</div>
+						<div class="product-card-info">
+							<div class="product-btn">
+								<a href='./product-detail.html' class="btn-flat btn-hover btn-shop-now">shop now</a>
+
+							</div>
+							<div class="product-card-name">
+								bánh kem sinh nhật vương miệng
+							</div>
+							<div class="product-card-price">
+								<span><del>20cm - 250.000đ</del></span>
+								<br>
+								<span class="curr-price">20cm - 200.000đ</span>
+							</div>
+						</div>
+					</div>
+					<div class="product-card" style="margin-top: 42px;">
+						<div class="product-card-img">
+							<img src="./images/banhkem2.jpg" alt="">
+							<img src="./images/banhkem2.jpg" alt="">
+						</div>
+						<div class="product-card-info">
+							<div class="product-btn">
+								<a href='./product-detail.html' class="btn-flat btn-hover btn-shop-now">shop now</a>
+
+							</div>
+							<div class="product-card-name">
+								bánh kem bắp
+							</div>
+							<div class="product-card-price">
+								<span><del>20cm - 250.000đ</del></span>
+								<br>
+								<span class="curr-price">20cm - 200.000đ</span>
+							</div>
+						</div>
+					</div>
+
+
+
+
+				</div>
+				<div class="col-3 col-md-6 col-sm-12">
+					<div class="product-card">
+						<div class="product-card-img">
+							<img src="./images/banhkem6.jpg" alt="">
+							<img src="./images/banhkem6.jpg" alt="">
+						</div>
+						<div class="product-card-info">
+							<div class="product-btn">
+								<a href='./product-detail.html' class="btn-flat btn-hover btn-shop-now">shop now</a>
+
+							</div>
+							<div class="product-card-name">
+								Bánh sinh nhật hình trái tim
+							</div>
+							<div class="product-card-price">
+								<span><del>20cm - 250.000đ</del></span>
+								<br>
+								<span class="curr-price">20cm - 200.000đ</span>
+							</div>
+						</div>
+					</div>
+					<div class="product-card" style="margin-top: 32px;">
+						<div class="product-card-img">
+							<img src="./images/mau-banh-sinh-nhat-cho-be-trai-1.jpg" alt="">
+							<img src="./images/mau-banh-sinh-nhat-cho-be-trai-1.jpg" alt="">
+						</div>
+						<div class="product-card-info">
+							<div class="product-btn">
+								<a href='./product-detail.html' class="btn-flat btn-hover btn-shop-now">shop now</a>
+
+							</div>
+							<div class="product-card-name">
+								Bánh sinh nhật cho bé trai
+							</div>
+							<div class="product-card-price">
+
+								<span><del>20cm - 250.000đ</del></span>
+								<br>
+								<span class="curr-price">20cm - 200.000đ</span>
+							</div>
+						</div>
+					</div>
+
+
+
+
+				</div>
+				<div class="col-3 col-md-6 col-sm-12">
+					<div class="product-card">
+						<div class="product-card-img">
+							<img src="./images/banhkem3.jpg" alt="">
+							<img src="./images/banhkem3.jpg" alt="">
+						</div>
+						<div class="product-card-info">
+							<div class="product-btn">
+								<a href='./product-detail.html' class="btn-flat btn-hover btn-shop-now">shop now</a>
+
+							</div>
+							<div class="product-card-name">
+								Bánh sinh nhật cho bé gái
+							</div>
+							<div class="product-card-price">
+								<span><del>20cm - 250.000đ</del></span>
+								<br>
+								<span class="curr-price">20cm - 200.000đ</span>>
+							</div>
+						</div>
+					</div>
+					<div class="product-card" style="margin-top: 72px;">
+						<div class="product-card-img">
+							<img src="./images/banhkem4.jpg" alt="">
+							<img src="./images/banhkem4.jpg" alt="">
+						</div>
+						<div class="product-card-info">
+							<div class="product-btn">
+								<a href='./product-detail.html' class="btn-flat btn-hover btn-shop-now">shop now</a>
+
+							</div>
+							<div class="product-card-name">
+								Bánh kem sinh nhật 2
+							</div>
+							<div class="product-card-price">
+
+								<span><del>20cm - 250.000đ</del></span>
+								<br>
+								<span class="curr-price">20cm - 200.000đ</span>>
+							</div>
+						</div>
+					</div>
+
+
+
+
+				</div>
+
+			</div>
+			<div class="section-footer">
+				<a href="./products.html" class="btn-flat btn-hover">Vào Trang sản phẩm</a>
+			</div>
+		</div>
+	</div>
+
+	<!-- end product list -->
+
+	<!-- addd -->
+
+	<!-- end -->
+
+	<!-- special product -->
+	<!-- <div class="bg-second">
+		<div class="section container">
+			<div class="row">
+				<div class="col-4 col-md-4">
+					<div class="sp-item-img">
+						<img style="border-radius: 12px"
+							src="https://maisonmarou.com/wp-content/uploads/2022/08/Academie-class-making-baking-american-cakes-1506x1536.jpg"
+							alt="" />
+					</div>
+				</div>
+				<div class="col-7 col-md-8">
+					<div class="sp-item-info">
+						<div class="sp-item-name">BECOME A CHOCOLATE & PASTRY EXPERT</div>
+						<p class="sp-item-description">
+							REATED BY OUR PASTRY CHEFS AND CHOCOLATE EXPERTS, THE MAROU
+							ACADÉMIE IS OUR WAY OF SHARING THE PASSION AND KNOWLEDGE WE HAVE
+							FOR CRAFTING THE FINEST PASTRIES AND CHOCOLATE WITH ENTHUSIASTS
+							OF ALL AGES.
+						</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div> -->
+	<!-- end special product -->
+
+	<!-- product list -->
+	<div class="section">
+		<div class="container">
+			<div class="section-header">
+				<h2>Bánh mì, bánh ngọt</h2>
+			</div>
+			<div class="row">
+				<div class="col-3 col-md-6 col-sm-12">
+					<div class="product-card">
+						<div class="product-card-img">
+							<img src="./images/phô mai tan chảy.jpg" alt="">
+							<img src="./images/phô mai tan chảy.jpg" alt="">
+						</div>
+						<div class="product-card-info">
+							<div class="product-btn">
+								<a href='./product-detail.html' class="btn-flat btn-hover btn-shop-now">shop now</a>
+
+							</div>
+							<div class="product-card-name">
+								Bánh mì phô mai tan chảy
+							</div>
+							<div class="product-card-price">
+
+								<br>
+								<span class="curr-price">60.000đ</span>
+							</div>
+						</div>
+					</div>
+					<div class="product-card" style="margin-top: 32px;">
+						<div class="product-card-img">
+							<img src="./images/bonglan.jpg" alt="">
+							<img src="./images/bonglan.jpg" alt="">
+						</div>
+						<div class="product-card-info">
+							<div class="product-btn">
+								<a href='./product-detail.html' class="btn-flat btn-hover btn-shop-now">shop now</a>
+
+							</div>
+							<div class="product-card-name">
+								Bông lan trứng muối
+							</div>
+							<div class="product-card-price">
+								<span>12cm - 80.000đ</span>
+								<br>
+								<span>20cm - 150.000đ</span>
+								<br>
+								<span class="curr-price">30cm - 250.000đ</span>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-3 col-md-6 col-sm-12">
+					<div class="product-card">
+						<div class="product-card-img">
+							<img src="./images/banhsu.jpg" alt="">
+							<img src="./images/banhsu.jpg" alt="">
+						</div>
+						<div class="product-card-info">
+							<div class="product-btn">
+								<a href='./product-detail.html' class="btn-flat btn-hover btn-shop-now">shop now</a>
+
+							</div>
+							<div class="product-card-name">
+								Bánh su kem
+							</div>
+							<div class="product-card-price">
+								<span>5 cái - 40.000đ</span>
+								<br>
+								<span class="curr-price">8 cái - 70.000đ</span>
+							</div>
+						</div>
+					</div>
+					<div class="product-card" style="margin-top: 32px;">
+						<div class="product-card-img">
+							<img src="./images/tiramisu.jpg" alt="">
+							<img src="./images/tiramisu.jpg" alt="">
+						</div>
+						<div class="product-card-info">
+							<div class="product-btn">
+								<a href='./product-detail.html' class="btn-flat btn-hover btn-shop-now">shop now</a>
+
+							</div>
+							<div class="product-card-name">
+								Tiramisu dâu
+							</div>
+							<div class="product-card-price">
+								<br>
+								<span class="curr-price">40.000đ</span>
+							</div>
+						</div>
+					</div>
+
+
+
+
+				</div>
+				<div class="col-3 col-md-6 col-sm-12">
+					<div class="product-card">
+						<div class="product-card-img">
+							<img src="./images/banh-sieu-dua.jpg">
+							<img src="./images/banh-sieu-dua.jpg" alt="">
+						</div>
+						<div class="product-card-info">
+							<div class="product-btn">
+								<a href='./product-detail.html' class="btn-flat btn-hover btn-shop-now">shop now</a>
+
+							</div>
+							<div class="product-card-name">
+								Bánh mì dừa
+							</div>
+							<div class="product-card-price">
+
+								<br>
+								<span class="curr-price">80.000đ</span>
+							</div>
+						</div>
+					</div>
+					<div class="product-card" style="margin-top: 32px;">
+						<div class="product-card-img">
+							<img src="./images/banhcrep3.jpeg" alt="">
+							<img src="./images/banhcrep3.jpeg" alt="">
+						</div>
+						<div class="product-card-info">
+							<div class="product-btn">
+								<a href='./product-detail.html' class="btn-flat btn-hover btn-shop-now">shop now</a>
+
+							</div>
+							<div class="product-card-name">
+								Crep sầu riêng mini
+							</div>
+							<div class="product-card-price">
+
+								<span>4 cái - 50.000đ</span>
+								<br>
+								<span class="curr-price">8 cái - 70.000đ</span>
+							</div>
+						</div>
+					</div>
+
+
+
+
+				</div>
+				<div class="col-3 col-md-6 col-sm-12">
+					<div class="product-card">
+						<div class="product-card-img">
+							<img src="./images/banhmihoacu.png" alt="">
+							<img src="./images/banhmihoacu.png" alt="">
+						</div>
+						<div class="product-card-info">
+							<div class="product-btn">
+								<a href='./product-detail.html' class="btn-flat btn-hover btn-shop-now">shop now</a>
+
+							</div>
+							<div class="product-card-name">
+								Bánh mì hoa cúc
+							</div>
+							<div class="product-card-price">
+								<br>
+								<span class="curr-price">80.000đ</span>
+							</div>
+						</div>
+					</div>
+					<div class="product-card" style="margin-top: 32px;">
+						<div class="product-card-img">
+							<img src="./images/banhcrep1.jpg" alt="">
+							<img src="./images/banhcrep2.jpg" alt="">
+						</div>
+						<div class="product-card-info">
+							<div class="product-btn">
+								<a href='./product-detail.html' class="btn-flat btn-hover btn-shop-now">shop now</a>
+
+							</div>
+							<div class="product-card-name">
+								Bánh crep núi Phú Sĩ
+							</div>
+							<div class="product-card-price">
+
+
+								<br>
+								<span class="curr-price">20cm - 200.000đ</span>>
+							</div>
+						</div>
+					</div>
+
+
+
+
+				</div>
+
+			</div>
+			<div class="section-footer">
+				<a href="./products.html" class="btn-flat btn-hover">Vào Trang sản phẩm</a>
+			</div>
+		</div>
+	</div>
+	<!-- end product list -->
+
+	<!-- blogs -->
+	<div class="section">
+		<div class="container">
+			<div class="section-header">
+				<h2>Tin tức</h2>
+			</div>
+			<div class="blog">
+				<div class="blog-img">
+					<img style="padding-left: 50px"
+						src="https://file.hstatic.net/1000313040/article/281708730_5359680200743291_2363681289326292129_n_4ca5348c7f7f45478a316b0c8c19e851_large.jpg"
+						alt="" />
+				</div>
+				<div class="blog-info">
+					<br />
+					<br />
+					<div class="blog-title">Red Velvet - Nữ Hoàng Trên Sàn Diễn...</div>
+					<div class="blog-preview">
+						Từ khi xuất hiện, red velvet (bánh nhung đỏ) được người mê bánh
+						ngọt khắp nơi trên thế giới yêu thích nhờ hương vị cổ điển và màu
+						đỏ bắt mắt. Tên gọi của chúng cũng khá sang trọ...
+					</div>
+				</div>
+			</div>
+			<div class="blog row-revere">
+				<div class="blog-img">
+					<img style="padding-left: 50px"
+						src="https://file.hstatic.net/1000313040/article/key_valentine_4_0d2816d17a544d368bfa7c30957b0584_large.png"
+						alt="" />
+				</div>
+				<div class="blog-info">
+					<br />
+					<br />
+
+					<div class="blog-title">HAPPY VALENTINE'S DAY 2023</div>
+					<div class="blog-preview">
+						Nhắc đến tình yêu - là nhắc đến những trái tim ngập tràn màu hồng,
+						ngọt ngào và hạnh phúc.Bạn biết không, người ta vẫn tin rằng trái
+						tim là trung tâm của mọi cảm xúc...
+					</div>
+				</div>
+			</div>
+			<div class="section-footer"></div>
+		</div>
+	</div>
+	<!-- end blogs -->
+	<hr />
+	<hr />
+	<!-- footer -->
+	<!-- footer -->
+
+	<footer class="bg-second">
+		<div class="container">
+			<div class="row">
+				<div class="col-3 col-md-6">
+					<h3 class="footer-head">sản phẩm</h3>
+					<ul class="menu">
+						<li><a href="#">Bánh sinh nhật</a></li>
+						<li><a href="#">Bánh mì, Bánh mặn</a></li>
+						<li><a href="#">Cookies & Minicake</a></li>
+					</ul>
+				</div>
+				<div class="col-3 col-md-6">
+					<h3 class="footer-head">dịch vụ</h3>
+					<ul class="menu">
+						<li><a href="#">Giải đáp</a></li>
+						<li><a href="#">Liên hệ</a></li>
+						<li><a href="#">Đặt hàng</a></li>
+						<li><a href="#">Chính sách</a></li>
+						<li><a href="#">Theo dõi</a></li>
+					</ul>
+				</div>
+
+				<div class="col-3 col-md-6">
+					<h3 class="footer-head">địa chỉ</h3>
+					<iframe
+						src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3918.475323567196!2d106.755094!3d10.8514062!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x317527bd88153cbf%3A0xa2b045fa019cd46a!2zMSDEkC4gVsO1IFbEg24gTmfDom4sIExpbmggQ2hp4buDdSwgVGjhu6cgxJDhu6ljLCBUaMOgbmggcGjhu5EgSOG7kyBDaMOtIE1pbmg!5e0!3m2!1svi!2s!4v1682369819664!5m2!1svi!2s"
+						width="600" height="260" style="border:0;" allowfullscreen="" loading="lazy"
+						referrerpolicy="no-referrer-when-downgrade"></iframe>
+					</ul>
+				</div>
+				<div class="col-3 col-md-6 col-sm-12">
+					<div class="contact">
+						<h3 class="contact-header">Doriscake</h3>
+						<ul class="contact-socials">
+							<li>
+								<a href="#">
+									<i class="bx bxl-facebook-circle"></i>
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									<i class="bx bxl-instagram-alt"></i>
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									<i class="bx bxl-youtube"></i>
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									<i class="bx bxl-twitter"></i>
+								</a>
+							</li>
+						</ul>
+					</div>
+					<div class="subscribe">
+						<input type="email" placeholder="ENTER YOUR EMAIL" />
+						<button>subscribe</button>
+					</div>
+				</div>
+			</div>
+		</div>
+		<button type="button" class="btn-danger" id="btn-back-to-top">
+			<i class='bx bxs-to-top'></i>
+		</button>
+	</footer>
+	<!-- end footer -->
+
+	<!-- app js -->
+	<script src="./js/app.js"></script>
+	<script src="./js/index.js"></script>
+	<script>
+		//Get the button
+		let mybutton = document.getElementById("btn-back-to-top");
+
+		// When the user scrolls down 20px from the top of the document, show the button
+		window.onscroll = function () {
+			scrollFunction();
+		};
+
+		function scrollFunction() {
+			if (
+				document.body.scrollTop > 20 ||
+				document.documentElement.scrollTop > 20
+			) {
+				mybutton.style.display = "block";
+			} else {
+				mybutton.style.display = "none";
+			}
+		}
+		// When the user clicks on the button, scroll to the top of the document
+		mybutton.addEventListener("click", backToTop);
+
+		function backToTop() {
+			document.body.scrollTop = 0;
+			document.documentElement.scrollTop = 0;
+		}
+	</script>
+</body>
+
+</html>
